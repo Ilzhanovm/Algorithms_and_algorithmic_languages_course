@@ -19,7 +19,6 @@ int task1_1_2() {
 
         if (nextElement == max)
             count++;
-
         if (nextElement > max) {
             max = nextElement;
             count = 1;
