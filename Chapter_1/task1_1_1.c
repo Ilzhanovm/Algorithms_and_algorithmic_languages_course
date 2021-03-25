@@ -13,13 +13,13 @@ int task1_1_1() {
     max = min;
 
     for (int i = 0; i < N - 1; i++) {
-        int temp;
-        scanf("%d", &temp);
+        int nextElement;
+        scanf("%d", &nextElement);
 
-        if (temp > max)
-            max = temp;
-        if (temp < min)
-            min = temp;
+        if (nextElement > max)
+            max = nextElement;
+        if (nextElement < min)
+            min = nextElement;
     }
 
     printf("%d", max - min);
