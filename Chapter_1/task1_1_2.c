@@ -14,14 +14,14 @@ int task1_1_2() {
     int count = 1;
 
     for (int i = 0; i < N - 1; ++i) {
-        int temp;
-        scanf("%d", &temp);
+        int nextElement;
+        scanf("%d", &nextElement);
 
-        if (temp == max)
+        if (nextElement == max)
             count++;
 
-        if (temp > max) {
-            max = temp;
+        if (nextElement > max) {
+            max = nextElement;
             count = 1;
         }
     }
